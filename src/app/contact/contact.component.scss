@@ -1,8 +1,16 @@
-.contact-container
-{
-    width: 1000Px;
-    margin: auto;
-    padding: 100px 100px 0 100px;
-    display: block;
-    height: 80%;
+.contact-container {
+  width: 1000px;
+  margin: auto;
+  padding: 100px 100px 0 100px;
+  display: block;
+  height: 80%;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
 }
