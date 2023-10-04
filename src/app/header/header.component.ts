@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  logo = 'assets/kuchi.svg';
+  logo = './assets/kuchi.svg';
 }
