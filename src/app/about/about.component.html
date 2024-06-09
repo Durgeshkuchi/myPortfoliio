@@ -2,11 +2,16 @@
   <h1 id="about-header">About Me</h1>
   <div class="header-text1">
     <h2>
-      My name is Durgesh Kuchi, I am from Andhra Pradesh, IND. I am a Computer
-      Science Graduate, Currently I am looking for a full stack developer roles.
+      My name is Durgesh Kuchi, I am from Houston, TX. I am a Computer Science
+      Graduate, Currently I am looking for a full stack developer roles.
     </h2>
   </div>
   <h1 id="about-header">Work Experience</h1>
+  <about-child
+    [companyName]="'Invences Inc'"
+    [companyAddress]="'Carrollton, TX'"
+    [experienceDate]="'June 2023 - Present'"
+  ></about-child>
   <about-child
     [companyName]="'Baylor College of Medicine'"
     [companyAddress]="'Houston, TX'"
@@ -15,8 +20,15 @@
   <about-child
     [companyName]="'American Cyber Systems Inc'"
     [companyAddress]="'Hyderabad, IND'"
-    [experienceDate]="'December 2019 - August 2021'"
+    [experienceDate]="'December 2018 - August 2021'"
   ></about-child>
+  <h1 id="about-header">Educational Contributions</h1>
+  <about-education
+    [Designation]="'Teaching Assistant, Database Management Systems'"
+    [collegeName]="'University of Houston - Clear Lake'"
+    [collegeAddress]="'Houston, TX'"
+    [collegeDate]="'January 2022 - May 2023'"
+  ></about-education>
   <h1 id="about-header">Education</h1>
   <about-education
     [Designation]="'Masters in Computer Science'"
